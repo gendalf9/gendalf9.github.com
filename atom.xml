@@ -4,7 +4,7 @@
   <title><![CDATA[Wanderer wolf's second den]]></title>
   <link href="http://gendalf9.github.com/atom.xml" rel="self"/>
   <link href="http://gendalf9.github.com/"/>
-  <updated>2013-01-26T23:19:04+09:00</updated>
+  <updated>2013-01-26T23:20:23+09:00</updated>
   <id>http://gendalf9.github.com/</id>
   <author>
     <name><![CDATA[gendalf9]]></name>
@@ -18,7 +18,7 @@
     <link href="http://gendalf9.github.com/blog/2013/01/26/saeroun-sijag/"/>
     <updated>2013-01-26T23:18:00+09:00</updated>
     <id>http://gendalf9.github.com/blog/2013/01/26/saeroun-sijag</id>
-    <content type="html"><![CDATA[
+    <content type="html"><![CDATA[<p>test</p>
 ]]></content>
   </entry>
   
