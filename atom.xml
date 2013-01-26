@@ -4,7 +4,7 @@
   <title><![CDATA[Wanderer wolf's second den]]></title>
   <link href="http://gendalf9.github.com/atom.xml" rel="self"/>
   <link href="http://gendalf9.github.com/"/>
-  <updated>2013-01-26T23:25:43+09:00</updated>
+  <updated>2013-01-27T08:45:15+09:00</updated>
   <id>http://gendalf9.github.com/</id>
   <author>
     <name><![CDATA[gendalf9]]></name>
@@ -12,6 +12,32 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[옥토프레스를 설치하면서]]></title>
+    <link href="http://gendalf9.github.com/blog/2013/01/27/ogtopeureseureul-seolcihamyeonseo/"/>
+    <updated>2013-01-27T08:32:00+09:00</updated>
+    <id>http://gendalf9.github.com/blog/2013/01/27/ogtopeureseureul-seolcihamyeonseo</id>
+    <content type="html"><![CDATA[<p>처음에 옥토프레스를 설치하면서 이런 저런 삽질을 겪었네요.</p>
+
+<p>원래 rvm 깔아놓고 잘 쓰고 있다가 그거 지우고 rbenv로 바꾸고 _config.yml 잘못 만졌다가 빌드 에러가 우수수 떨어지질 않나&#8230;.</p>
+
+<p>절차를 간단하게 요약해보면</p>
+
+<ol>
+<li>gem, ruby 설치</li>
+<li>git으로 octopress 받기</li>
+<li>rake를 통해서 setting</li>
+<li>github 저장소로 push</li>
+<li>[User account name].github.com으로 접속.</li>
+</ol>
+
+
+<p>정도가 되겠군요.</p>
+
+<p>처음에 하다가 잘못해서 저장소 싹 지우고 다시 설치한 거도 있고, 지금도 포스팅 수정도 생각처럼 되질 않고 테마 추가 정도는 했지만, 플러그인 추가&amp;사옹, 파일 첨부 및 링크 등의 방법도 전혀 모르는 상태입니다. 쓰면서 하나씩 익혀나가려고요.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[새로운 시작?]]></title>
