@@ -3,9 +3,9 @@
 # ----------------------- #
 
 url: http://gendalf9.github.com
-title: My Octopress Blog
-subtitle: A blogging framework for hackers.
-author: Your Name
+title: Wanderer wolf's second den
+subtitle: 그냥 잡다한 이야기들
+author: gendalf9
 simple_search: http://google.com/search
 description:
 
@@ -64,7 +64,7 @@ github_show_profile_link: true
 github_skip_forks: true
 
 # Twitter
-twitter_user:
+twitter_user: gendalf9
 twitter_tweet_count: 4
 twitter_show_replies: false
 twitter_follow_button: true
