@@ -11,7 +11,7 @@
   
   <meta name="description" content="Blog Archive 2013 옥토프레스를 설치하면서
 Jan 27 2013 새로운 시작?
-Jan 26 2013 Recent Posts 옥토프레스를 설치하면서 새로운 시작? Latest Tweets Status updating... $.domReady( &hellip;">
+Jan 26 2013 Recent Posts 옥토프레스를 설치하면서 새로운 시작? GitHub Repos Status updating... @gendalf9 on GitHub &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -35,6 +35,18 @@ Jan 26 2013 Recent Posts 옥토프레스를 설치하면서 새로운 시작? La
 
 
   
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-6843335-3']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
 
 </head>
 
@@ -106,6 +118,16 @@ Jan 26 2013 Recent Posts 옥토프레스를 설치하면서 새로운 시작? La
 <aside class="sidebar">
   
     <section>
+  <ul id="recent_posts">
+      <li class="post">
+      <a href="http://gendalf9.github.com" alt="Home"><img src="/images/Home.png"></a>
+      <a href="http://gendalf9.github.com/archives/" alt="Archives"><img src="/images/Calendar.png"></a>
+      <a href="mailto:gendalf9@gmail.com" alt="E-Mail"><img src="/images/Envelope.png"></a>
+      <a href="http://gendalf9.github.com/atom.xml" alt="subscribe feed"><img src="/images/rss_big.png"></a>
+      </li>
+  </ul>
+</section>
+<section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
     
@@ -118,6 +140,35 @@ Jan 26 2013 Recent Posts 옥토프레스를 설치하면서 새로운 시작? La
       </li>
     
   </ul>
+</section>
+
+<section>
+  <h1>GitHub Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating...</li>
+  </ul>
+  
+  <a href="https://github.com/gendalf9">@gendalf9</a> on GitHub
+  
+  <script type="text/javascript">
+    $.domReady(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'gendalf9',
+            count: 0,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
 </section>
 
 
