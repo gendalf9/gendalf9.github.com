@@ -5,11 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>새로운 시작? - Wanderer wolf's second den</title>
+  <title>Java로 rouge-like 만들기 - Wanderer wolf's second den</title>
   <meta name="author" content="gendalf9">
 
   
-  <meta name="description" content="옥토프레스로 새로 블로그를 한번 만들어 보았습니다. 제일 처음에는 네이버, 그 후에는 티스토리와 텀블러를 거쳐 옥토프레스로 왔군요. 원래는 워드프레스를 써보고 싶었지만 집의 공유기의 DDNS기능 지원이 미비한 바람에&#8230; 아무튼 언제나처럼 생각날 때 포스트를 &hellip;">
+  <meta name="description" content="요즘 코딩 실력 향상의 필요를 느끼다 보니 공부 좀 해야겠구나 싶더라고요. 역시 이론 공부도 중요하지만, 실습도 필요하다 싶기에 뭔가는 해야겠다 싶었는데 그놈의 목적의식이 생각보다 쉽게 생기진 않더라고요. 그래서 골라본게 rogue-like 게임을 간단하게나마 &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://gendalf9.github.com/blog/2013/01/26/saeroun-sijag/">
+  <link rel="canonical" href="http://gendalf9.github.com/blog/2013/02/08/javaro-rouge-like-mandeulgi/">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
    <link href="/stylesheets/data-table.css" media="screen, projection" rel="stylesheet" type="text/css" />
@@ -78,7 +78,7 @@
   
   <header>
     
-      <h1 class="entry-title">새로운 시작?</h1>
+      <h1 class="entry-title">Java로 Rouge-like 만들기</h1>
     
     
       <p class="meta">
@@ -94,22 +94,20 @@
   
 
 
-<time datetime="2013-01-26T23:18:00+09:00" pubdate data-updated="true">Jan 26<span>th</span>, 2013</time>
+<time datetime="2013-02-08T21:53:00+09:00" pubdate data-updated="true">Feb 8<span>th</span>, 2013</time>
         
       </p>
     
   </header>
 
 
-<div class="entry-content"><p>옥토프레스로 새로 블로그를 한번 만들어 보았습니다.</p>
+<div class="entry-content"><p>요즘 코딩 실력 향상의 필요를 느끼다 보니 공부 좀 해야겠구나 싶더라고요.</p>
 
-<p>제일 처음에는 네이버, 그 후에는 티스토리와 텀블러를 거쳐 옥토프레스로 왔군요. 원래는 워드프레스를 써보고 싶었지만 집의 공유기의 DDNS기능 지원이 미비한 바람에&#8230;</p>
+<p>역시 이론 공부도 중요하지만, 실습도 필요하다 싶기에 뭔가는 해야겠다 싶었는데 그놈의 목적의식이 생각보다 쉽게 생기진 않더라고요. 그래서 골라본게 rogue-like 게임을 간단하게나마 만들어보자 싶었습니다.</p>
 
-<p>아무튼 언제나처럼 생각날 때 포스트를 작성할겁니다.</p>
+<p>rogue-like 게임이 원래 시작이 휴식시간에 간단하게 코딩해서 짧게 즐길 수 있는 게임을 만들어보자는 것이었기 때문에 나름 해볼만한게 아닌가 싶어서 말이죠.</p>
 
-<p>아래 이미지는 테스트삼아 한번 올려보는겁니다.</p>
-
-<p><img src="/images/test.jpg"></p>
+<p>물론, 실력이 부족하고 게임 개발쪽의 개념도 적기때문에 실제로 정리해서 포스팅 할 수 있을때 까지의 시간은 좀 걸릴 듯 합니다만.</p>
 </div>
 
 
@@ -132,7 +130,7 @@
   
 
 
-<time datetime="2013-01-26T23:18:00+09:00" pubdate data-updated="true">Jan 26<span>th</span>, 2013</time>
+<time datetime="2013-02-08T21:53:00+09:00" pubdate data-updated="true">Feb 8<span>th</span>, 2013</time>
       
 
 
@@ -140,7 +138,7 @@
     
       <div class="sharing">
   
-  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://gendalf9.github.com/blog/2013/01/26/saeroun-sijag/" data-via="gendalf9" data-counturl="http://gendalf9.github.com/blog/2013/01/26/saeroun-sijag/" >Tweet</a>
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://gendalf9.github.com/blog/2013/02/08/javaro-rouge-like-mandeulgi/" data-via="gendalf9" data-counturl="http://gendalf9.github.com/blog/2013/02/08/javaro-rouge-like-mandeulgi/" >Tweet</a>
   
   
   
@@ -149,12 +147,18 @@
     
     <p class="meta">
       
+        <a class="basic-alignment left" href="/blog/2013/01/27/ogtopeureseureul-seolcihamyeonseo/" title="Previous Post: 옥토프레스를 설치하면서">&laquo; 옥토프레스를 설치하면서</a>
       
-        <a class="basic-alignment right" href="/blog/2013/01/27/ogtopeureseureul-seolcihamyeonseo/" title="Next Post: 옥토프레스를 설치하면서">옥토프레스를 설치하면서 &raquo;</a>
       
     </p>
   </footer>
 </article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
 
 </div>
 
@@ -175,11 +179,11 @@
   <ul id="recent_posts">
     
       <li class="post">
-        <a href="/blog/2013/01/27/ogtopeureseureul-seolcihamyeonseo/">옥토프레스를 설치하면서</a>
+        <a href="/blog/2013/02/08/javaro-rouge-like-mandeulgi/">Java로 rouge-like 만들기</a>
       </li>
     
       <li class="post">
-        <a href="/blog/2013/01/26/saeroun-sijag/">새로운 시작?</a>
+        <a href="/blog/2013/01/27/ogtopeureseureul-seolcihamyeonseo/">옥토프레스를 설치하면서</a>
       </li>
     
   </ul>
@@ -248,6 +252,22 @@
 
 </footer>
   
+
+<script type="text/javascript">
+      var disqus_shortname = 'gendalf9';
+      
+        
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://gendalf9.github.com/blog/2013/02/08/javaro-rouge-like-mandeulgi/';
+        var disqus_url = 'http://gendalf9.github.com/blog/2013/02/08/javaro-rouge-like-mandeulgi/';
+        var disqus_script = 'embed.js';
+      
+    (function () {
+      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+      dsq.src = 'http://' + disqus_shortname + '.disqus.com/' + disqus_script;
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
 
 
 

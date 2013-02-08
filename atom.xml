@@ -4,7 +4,7 @@
   <title><![CDATA[Wanderer wolf's second den]]></title>
   <link href="http://gendalf9.github.com/atom.xml" rel="self"/>
   <link href="http://gendalf9.github.com/"/>
-  <updated>2013-01-27T21:02:46+09:00</updated>
+  <updated>2013-02-08T22:00:40+09:00</updated>
   <id>http://gendalf9.github.com/</id>
   <author>
     <name><![CDATA[gendalf9]]></name>
@@ -12,6 +12,21 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Java로 rouge-like 만들기]]></title>
+    <link href="http://gendalf9.github.com/blog/2013/02/08/javaro-rouge-like-mandeulgi/"/>
+    <updated>2013-02-08T21:53:00+09:00</updated>
+    <id>http://gendalf9.github.com/blog/2013/02/08/javaro-rouge-like-mandeulgi</id>
+    <content type="html"><![CDATA[<p>요즘 코딩 실력 향상의 필요를 느끼다 보니 공부 좀 해야겠구나 싶더라고요.</p>
+
+<p>역시 이론 공부도 중요하지만, 실습도 필요하다 싶기에 뭔가는 해야겠다 싶었는데 그놈의 목적의식이 생각보다 쉽게 생기진 않더라고요. 그래서 골라본게 rogue-like 게임을 간단하게나마 만들어보자 싶었습니다.</p>
+
+<p>rogue-like 게임이 원래 시작이 휴식시간에 간단하게 코딩해서 짧게 즐길 수 있는 게임을 만들어보자는 것이었기 때문에 나름 해볼만한게 아닌가 싶어서 말이죠.</p>
+
+<p>물론, 실력이 부족하고 게임 개발쪽의 개념도 적기때문에 실제로 정리해서 포스팅 할 수 있을때 까지의 시간은 좀 걸릴 듯 합니다만.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[옥토프레스를 설치하면서]]></title>
@@ -36,23 +51,6 @@
 <p>정도가 되겠군요. 제가 까먹지 않기 위해서라도 다음에 시간 나는대로 한번 여기에 자세히 정리해놓아야 할 듯 싶습니다.</p>
 
 <p>처음에 하다가 잘못해서 저장소 싹 지우고 다시 설치한 거도 있고, 지금도 포스팅 수정도 생각처럼 되질 않고 테마 추가 정도는 했지만, 플러그인 추가&amp;사옹, 파일 첨부 및 링크 등의 방법도 전혀 모르는 상태입니다. 쓰면서 하나씩 익혀나가려고요.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[새로운 시작?]]></title>
-    <link href="http://gendalf9.github.com/blog/2013/01/26/saeroun-sijag/"/>
-    <updated>2013-01-26T23:18:00+09:00</updated>
-    <id>http://gendalf9.github.com/blog/2013/01/26/saeroun-sijag</id>
-    <content type="html"><![CDATA[<p>옥토프레스로 새로 블로그를 한번 만들어 보았습니다.</p>
-
-<p>제일 처음에는 네이버, 그 후에는 티스토리와 텀블러를 거쳐 옥토프레스로 왔군요. 원래는 워드프레스를 써보고 싶었지만 집의 공유기의 DDNS기능 지원이 미비한 바람에&#8230;</p>
-
-<p>아무튼 언제나처럼 생각날 때 포스트를 작성할겁니다.</p>
-
-<p>아래 이미지는 테스트삼아 한번 올려보는겁니다.</p>
-
-<p><img src="http://gendalf9.github.com/images/test.jpg"></p>
 ]]></content>
   </entry>
   
